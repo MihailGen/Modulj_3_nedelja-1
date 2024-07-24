@@ -50,14 +50,12 @@ print(f"Oldest is: {name_oldest}, he(she) was born on {oldest_birth}")
 print(f"Poorest is: {name_poorest}, he(she) hav only {min_state}")
 print(f"In april birth: {birth_in_april} users")
 
-
-
 my_data = {
     "createdAt": datetime.datetime.now().isoformat(),
     "name": "Mihail Genzik",
     "avatar": "https://avatar.fandom.com/wiki/Fire_Nation_Man?file=Fire_Nation_Man.png",
     "state": "9_999_999_999_999",
     "birth": "1970-04-21T11:44:06.223Z",
-    "id": str(int(r.json()[len(r.json())-1]['id']) + 1)
+    "id": str(int(r.json()[len(r.json()) - 1]['id']) + 1)
 }
 print(my_data)
