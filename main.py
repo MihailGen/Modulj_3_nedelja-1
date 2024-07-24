@@ -23,7 +23,6 @@ for user in r.json():
     # кто самый пожилой
     elif birth < oldest_birth:
         oldest_birth = birth
-        # oldest = user['birth']
         name_oldest = user['name']
 
     # общее состояние первых 76 пользователей
